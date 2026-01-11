@@ -1,9 +1,3 @@
-/* =================================================
-   ManaTyping – FINAL COMPLETE SCRIPT (BUG FIXED)
-   Copy-Paste detection works from FIRST session
-   Privacy-First • Hackathon Ready
-================================================= */
-
 /* ---------- STATE ---------- */
 let sessionActive = false;
 let sessionStart = 0;
@@ -227,3 +221,4 @@ function restartSession() {
   startBtn.disabled = false;
   stopBtn.disabled = true;
 }
+
