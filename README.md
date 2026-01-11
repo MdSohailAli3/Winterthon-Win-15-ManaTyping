@@ -148,6 +148,72 @@ If the growth rate exceeds safe human typing limits, the session is flagged as:
 
 ---
 
+## 🖥️ Application Screenshots & Walkthrough
+
+Below is a visual walkthrough of ManaTyping, demonstrating how the system behaves under different writing patterns.
+
+---
+
+## 🏠 Homepage – Writing Interface
+
+This is the landing view where users begin a writing session.  
+It provides a distraction-free editor with explicit session controls.
+
+![Homepage](screenshots/1.png)
+
+**Highlights**
+- Clean writing space  
+- Start / Stop session controls  
+- Privacy-first indicator  
+- Live session statistics panel  
+
+---
+
+## 🟢 Natural Writing Rhythm
+
+These screenshots show **normal, continuous typing** with minimal pauses.  
+The system detects a **natural writing rhythm** without any flags.
+
+![Natural Writing – Typing](screenshots/2.png)
+![Natural Writing – Session Summary](screenshots/3.png)
+
+**Detected Behavior**
+- Steady typing speed  
+- Minimal thinking pauses  
+- Classified as **Natural writing rhythm**
+
+---
+
+## 🟨 Reflective Writing (Thinking-Heavy)
+
+These screenshots demonstrate **long pauses between typing**, indicating reflection and thought.
+
+![Reflective Writing – Typing](screenshots/4.png)
+![Reflective Writing – Session Summary](screenshots/5.png)
+
+**Detected Behavior**
+- Significant thinking time  
+- Slower typing rhythm  
+- Classified as **Reflective writing detected**
+
+---
+
+## 🔴 Copy-Paste / Defaulter Detection
+
+These screenshots show **abnormal text growth in very short time**, simulating copy-paste behavior.
+
+![Defaulter – Typing Spike](screenshots/6.png)
+![Defaulter – Session Summary](screenshots/7.png)
+
+**Detected Behavior**
+- Sudden spike in content length  
+- Growth rate exceeds human typing limits  
+- Classified as **Defaulter detected – abnormal text growth**
+
+> ⚠️ Detection is based purely on **content length vs time**, not clipboard access or text analysis.
+
+---
+
 ## 🔮 Future Enhancements
 - Teacher analytics dashboard
 - Flow Score (0–100)
